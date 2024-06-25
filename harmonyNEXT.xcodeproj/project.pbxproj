@@ -14,6 +14,8 @@
 		8B803E162C2AAC0400A9BFB1 /* harmonyNEXTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B803E152C2AAC0400A9BFB1 /* harmonyNEXTTests.swift */; };
 		8B803E202C2AAC0400A9BFB1 /* harmonyNEXTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B803E1F2C2AAC0400A9BFB1 /* harmonyNEXTUITests.swift */; };
 		8B803E222C2AAC0400A9BFB1 /* harmonyNEXTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B803E212C2AAC0400A9BFB1 /* harmonyNEXTUITestsLaunchTests.swift */; };
+		8B803E2F2C2AB9B700A9BFB1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B803E2E2C2AB9B700A9BFB1 /* Map.swift */; };
+		8B803E312C2AC3DB00A9BFB1 /* TCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B803E302C2AC3DB00A9BFB1 /* TCP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8B803E1B2C2AAC0400A9BFB1 /* harmonyNEXTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harmonyNEXTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B803E1F2C2AAC0400A9BFB1 /* harmonyNEXTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harmonyNEXTUITests.swift; sourceTree = "<group>"; };
 		8B803E212C2AAC0400A9BFB1 /* harmonyNEXTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harmonyNEXTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B803E2E2C2AB9B700A9BFB1 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		8B803E302C2AC3DB00A9BFB1 /* TCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				8B803E042C2AAC0200A9BFB1 /* harmonyNEXTApp.swift */,
 				8B803E062C2AAC0200A9BFB1 /* ContentView.swift */,
+				8B803E2E2C2AB9B700A9BFB1 /* Map.swift */,
 				8B803E082C2AAC0400A9BFB1 /* Assets.xcassets */,
 				8B803E0A2C2AAC0400A9BFB1 /* Preview Content */,
+				8B803E302C2AC3DB00A9BFB1 /* TCP.swift */,
 			);
 			path = harmonyNEXT;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B803E072C2AAC0200A9BFB1 /* ContentView.swift in Sources */,
+				8B803E2F2C2AB9B700A9BFB1 /* Map.swift in Sources */,
 				8B803E052C2AAC0200A9BFB1 /* harmonyNEXTApp.swift in Sources */,
+				8B803E312C2AC3DB00A9BFB1 /* TCP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

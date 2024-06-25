@@ -9,13 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        HStack {
+            VStack {
+                Image("HarmonyOSNEXT")
+                    .resizable()
+                    .scaledToFit()
+                    
+
+                
+                    
+                    
+
+                Text("Powered By HarmonyOS NEXT")
+                    .font(.footnote)
+            }
+            
         }
-        .padding()
     }
 }
 

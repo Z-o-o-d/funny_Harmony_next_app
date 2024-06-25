@@ -1,18 +1,24 @@
-//
-//  Map.swift
-//  harmonyNEXT
-//
-//  Created by 何金泽 on 2024/6/25.
-//
-
 import SwiftUI
+import MapKit
+import Network
 
-struct Map: View {
+struct MapView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Map(initialPosition: .region(region))
+    }
+
+
+    private var region: MKCoordinateRegion {
+        MKCoordinateRegion(
+            center: CLLocationCoordinate2D(latitude: 22.88345, longitude: 113.88059),
+            span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+            
+
+        )
     }
 }
 
+
 #Preview {
-    Map()
+    MapView()
 }
